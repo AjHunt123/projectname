@@ -7,6 +7,9 @@
 
 sub Main()
     print "in showChannelSGScreen"
+    print "in showChannelSGScreen"
+    print "in showChannelSGScreen"
+    print "in showChannelSGScreen"
     'Indicate this is a Roku SceneGraph application'
     screen = CreateObject("roSGScreen")
     m.port = CreateObject("roMessagePort")
