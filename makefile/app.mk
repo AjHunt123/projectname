@@ -43,6 +43,7 @@ MAKEFLAGS += --no-builtin-rules
 
 
 
+# This is the change
 HOST_OS := unknown
 UNAME_S := $(shell uname -s)
 ifeq ($(UNAME_S),Darwin)
