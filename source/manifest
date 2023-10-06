@@ -5,11 +5,10 @@
 #
 
 ##   Channel Details
-<!-- title=Hello World
+ -->
 major_version=1
 minor_version=0
-build_version=00001 -->
-
+build_version=000
 ##   Channel Assets
 ###  Main Menu Icons / Channel Poster Artwork 
 #### Image sizes are FHD: 540x405px | HD: 290x218px | SD: 214x144px
