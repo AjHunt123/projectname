@@ -39,11 +39,15 @@
 # default language rules that don't apply to this environment.
 MAKEFLAGS += --no-builtin-rules
 .SUFFIXES:
+## code collision example
+
+
+
 # This is the change
 HOST_OS := unknown
 UNAME_S := $(shell uname -s)
 ifeq ($(UNAME_S),Darwin)
-	HOST_OS := macos
+	HOST_OS := macos	
 else ifeq ($(UNAME_S),Linux)
 	HOST_OS := linux
 else ifneq (,$(findstring CYGWIN,$(UNAME_S)))
