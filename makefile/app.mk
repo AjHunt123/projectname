@@ -39,7 +39,7 @@
 # default language rules that don't apply to this environment.
 MAKEFLAGS += --no-builtin-rules
 .SUFFIXES:
-
+## code collision example
 HOST_OS := unknown
 UNAME_S := $(shell uname -s)
 ifeq ($(UNAME_S),Darwin)
